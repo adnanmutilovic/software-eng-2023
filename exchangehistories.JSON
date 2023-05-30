@@ -1,0 +1,14 @@
+[
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "EUR",
+    "rate": 0.85,
+    "date": "2023-05-01T00:00:00Z"
+  },
+  {
+    "fromCurrency": "USD",
+    "toCurrency": "GBP",
+    "rate": 0.75,
+    "date": "2023-05-01T00:00:00Z"
+  }
+]

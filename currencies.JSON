@@ -1,0 +1,34 @@
+[
+  {
+    "code": "USD",
+    "name": "United States Dollar"
+  },
+  {
+    "code": "EUR",
+    "name": "Euro"
+  },
+  {
+    "code": "GBP",
+    "name": "British Pound Sterling"
+  },
+  {
+    "code": "HUF",
+    "name": "Hungarian Forint"
+  },
+  {
+    "code": "KRW",
+    "name": "South Korean Won"
+  },
+  {
+    "code": "AUD",
+    "name": "Australian Dollar"
+  },
+  {
+    "code": "CAD",
+    "name": "Canadian Dollar"
+  },
+  {
+    "code": "CHF",
+    "name": "Swiss Franc"
+  }
+]
