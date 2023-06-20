@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import exchangeHistoryApi from "../api/exchangeHistoryApi";
+import exchangeHistoryApi from "../auth/exchangeHistoryApi";
 
 const ExchangeHistory = () => {
   const [exchangeHistory, setExchangeHistory] = useState([]);
