@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/currency";
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000/api/currency";
 
 export const getCurrencyList = async () => {
   try {
@@ -20,4 +20,9 @@ export const convertCurrency = async (from, to, amount) => {
   } catch (error) {
     throw error;
   }
+};
+
+export default {
+  getCurrencyList,
+  convertCurrency,
 };
