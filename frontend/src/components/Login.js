@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { login } from "../api/authApi";
+import { login } from "../auth/authApi";
 
 function Login() {
   const [email, setEmail] = useState("");
