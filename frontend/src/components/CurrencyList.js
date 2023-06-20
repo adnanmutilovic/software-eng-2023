@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getCurrencyList } from "../api/currencyApi";
+import currencyApi from "../auth/currencyApi";
 
 const CurrencyList = () => {
   const [currencies, setCurrencies] = useState([]);
@@ -7,7 +7,7 @@ const CurrencyList = () => {
   useEffect(() => {
     const fetchCurrencies = async () => {
       try {
-        const currencyList = await getCurrencyList();
+        const currencyList = await currencyApi.getCurrencyList();
         setCurrencies(currencyList);
       } catch (error) {
         console.error("Error fetching currencies:", error);
