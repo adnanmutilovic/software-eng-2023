@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import userApi from "../api/userApi";
+import userApi from "../auth/userApi";
 import { useHistory } from "react-router-dom";
 
 function Register() {
