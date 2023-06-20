@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getCurrencyList, convertCurrency } from "../auth/currencyApi";
-import exchangeHistoryApi from "../api/exchangeHistoryApi";
+import exchangeHistoryApi from "../auth/exchangeHistoryApi";
 
 const CurrencyConverter = () => {
   const [currencies, setCurrencies] = useState([]);
