@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getCurrencyList, convertCurrency } from "../api/currencyApi";
+import { getCurrencyList, convertCurrency } from "../auth/currencyApi";
 import exchangeHistoryApi from "../api/exchangeHistoryApi";
 
 const CurrencyConverter = () => {
