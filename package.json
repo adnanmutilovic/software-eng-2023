@@ -1,17 +1,18 @@
 {
-  "name": "my-app",
-  "version": "1.0.0",
-  "scripts": {
-    "install": "npm run install:frontend && npm run install:backend",
-    "install:frontend": "npm install --prefix frontend",
-    "install:backend": "npm install --prefix backend",
-    "build": "npm run build:frontend && npm run build:backend",
-    "build:frontend": "npm run build --prefix frontend",
-    "build:backend": "npm run heroku-postbuild",
-    "start": "node backend/server.js",
-    "heroku-postbuild": "npm install && npm run build"
-  },
-  "engines": {
-    "node": "14.x"
+    "name": "my-app",
+    "version": "1.0.0",
+    "scripts": {
+      "install": "npm run install:frontend && npm run install:backend",
+      "install:frontend": "npm install --prefix frontend",
+      "install:backend": "npm install --prefix backend",
+      "build": "npm run build:frontend && npm run build:backend",
+      "build:frontend": "npm run build --prefix frontend",
+      "build:backend": "npm run heroku-postbuild",
+      "start": "node backend/server.js",
+      "heroku-postbuild": "npm install && npm run build"
+    },
+    "engines": {
+      "node": "14.x"
+    }
   }
-}
+  
